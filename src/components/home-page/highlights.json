@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_page_highlights",
+  "info": {
+    "displayName": "highlights",
+    "icon": "lightbulb",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "rents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::rent.rent"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

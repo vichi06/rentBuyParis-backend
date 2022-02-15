@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_rent_amenities",
+  "info": {
+    "displayName": "amenities",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "washing_machine": {
+      "type": "boolean"
+    },
+    "tv_set": {
+      "type": "boolean"
+    },
+    "internet": {
+      "type": "boolean"
+    },
+    "bed_linen": {
+      "type": "boolean"
+    },
+    "dishwasher": {
+      "type": "boolean"
+    },
+    "kettle": {
+      "type": "boolean"
+    },
+    "draft_hood": {
+      "type": "boolean"
+    },
+    "elevator": {
+      "type": "boolean"
+    },
+    "refrigerator": {
+      "type": "boolean"
+    },
+    "microwave": {
+      "type": "boolean"
+    },
+    "toaster": {
+      "type": "boolean"
+    },
+    "iron_ironing_board": {
+      "type": "boolean"
+    },
+    "children_friendly": {
+      "type": "boolean"
+    },
+    "coffee_maker": {
+      "type": "boolean"
+    },
+    "oven": {
+      "type": "boolean"
+    },
+    "drying_machine": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_price_prices",
+  "info": {
+    "displayName": "price",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "USD",
+        "EUR",
+        "RUB"
+      ]
+    },
+    "value": {
+      "type": "decimal"
+    },
+    "regularity": {
+      "type": "enumeration",
+      "enum": [
+        "night",
+        "month",
+        "year"
+      ]
+    }
+  }
+}
