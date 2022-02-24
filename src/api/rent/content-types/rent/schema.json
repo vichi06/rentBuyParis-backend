@@ -61,6 +61,10 @@
     },
     "street": {
       "type": "string"
+    },
+    "isRent": {
+      "type": "boolean",
+      "required": true
     }
   }
 }
