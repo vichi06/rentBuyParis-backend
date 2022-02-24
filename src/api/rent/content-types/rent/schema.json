@@ -52,6 +52,15 @@
     },
     "size": {
       "type": "decimal"
+    },
+    "disponible": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
     }
   }
 }
