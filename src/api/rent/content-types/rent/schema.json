@@ -65,6 +65,14 @@
     "isRent": {
       "type": "boolean",
       "required": true
+    },
+    "googleMapsUrl": {
+      "type": "string"
+    },
+    "reservations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rent.reservation"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rent_reservations",
+  "info": {
+    "displayName": "reservation",
+    "icon": "calendar-minus"
+  },
+  "options": {},
+  "attributes": {
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    }
+  }
+}
