@@ -67,12 +67,30 @@
       "required": true
     },
     "googleMapsUrl": {
-      "type": "string"
+      "type": "text"
     },
     "reservations": {
       "type": "component",
       "repeatable": true,
       "component": "rent.reservation"
+    },
+    "hairDryer": {
+      "type": "boolean"
+    },
+    "vacuumCleaner": {
+      "type": "boolean"
+    },
+    "terrace": {
+      "type": "boolean"
+    },
+    "garden": {
+      "type": "boolean"
+    },
+    "parking": {
+      "type": "boolean"
+    },
+    "elevator": {
+      "type": "boolean"
     }
   }
 }
