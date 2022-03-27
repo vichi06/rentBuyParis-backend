@@ -28,11 +28,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
+      "allowedTypes": ["images", "files", "videos"]
     },
     "description": {
       "type": "richtext"
@@ -49,9 +45,6 @@
     },
     "district": {
       "type": "integer"
-    },
-    "size": {
-      "type": "decimal"
     },
     "disponible": {
       "type": "boolean"

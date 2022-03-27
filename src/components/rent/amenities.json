@@ -43,9 +43,6 @@
     "iron_ironing_board": {
       "type": "boolean"
     },
-    "children_friendly": {
-      "type": "boolean"
-    },
     "coffee_maker": {
       "type": "boolean"
     },
