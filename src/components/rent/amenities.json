@@ -8,64 +8,88 @@
   "options": {},
   "attributes": {
     "washing_machine": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "tv_set": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "internet": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "bed_linen": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "dishwasher": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "kettle": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "draft_hood": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "elevator": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "refrigerator": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "microwave": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "toaster": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "iron_ironing_board": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "coffee_maker": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "oven": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "drying_machine": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "terrace": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "hairDryer": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "vacuumCleaner": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "garden": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "parking": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
+    },
+    "cellar": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
