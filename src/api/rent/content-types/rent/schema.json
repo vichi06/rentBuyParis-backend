@@ -28,11 +28,7 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
+      "allowedTypes": ["images", "files", "videos"]
     },
     "description": {
       "type": "richtext"
@@ -76,7 +72,8 @@
       "component": "rent.reservation"
     },
     "isProperty": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     }
   }
 }
