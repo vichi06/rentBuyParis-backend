@@ -15,6 +15,9 @@
     "rooms": {
       "type": "integer"
     },
+    "bedrooms": {
+      "type": "integer"
+    },
     "lit_simple": {
       "type": "integer"
     },
