@@ -12,7 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "bedroom": {
+    "rooms": {
+      "type": "integer"
+    },
+    "lit_simple": {
+      "type": "integer"
+    },
+    "lit_double": {
       "type": "integer"
     },
     "guests": {
@@ -22,6 +28,9 @@
       "type": "integer"
     },
     "space": {
+      "type": "decimal"
+    },
+    "floor": {
       "type": "decimal"
     },
     "photos": {
@@ -59,7 +68,7 @@
     "street": {
       "type": "string"
     },
-    "isRent": {
+    "forRent": {
       "type": "boolean",
       "required": true
     },
@@ -71,7 +80,7 @@
       "repeatable": true,
       "component": "rent.reservation"
     },
-    "isProperty": {
+    "forSale": {
       "type": "boolean",
       "required": true
     }
