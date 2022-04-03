@@ -62,6 +62,9 @@
     "disponible": {
       "type": "boolean"
     },
+    "disponibleAPartirDe": {
+      "type": "date"
+    },
     "name": {
       "type": "string"
     },
