@@ -13,31 +13,41 @@
   "pluginOptions": {},
   "attributes": {
     "rooms": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "bedrooms": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "lit_simple": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "lit_double": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
-    "canape-lit": {
-      "type": "integer"
+    "canape_lit": {
+      "type": "integer",
+      "default": 0
     },
     "guests": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "bathroom": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "space": {
-      "type": "decimal"
+      "type": "decimal",
+      "default": 0
     },
     "floor": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true,
+      "default": 0
     },
     "photos": {
       "type": "media",
