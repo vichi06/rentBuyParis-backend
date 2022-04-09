@@ -24,6 +24,9 @@
     "lit_double": {
       "type": "integer"
     },
+    "canape-lit": {
+      "type": "integer"
+    },
     "guests": {
       "type": "integer"
     },
