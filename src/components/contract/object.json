@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_contract_objects",
+  "info": {
+    "displayName": "object",
+    "icon": "clipboard-check"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "surface": {
+      "type": "string"
+    },
+    "pieces": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    },
+    "equipments": {
+      "type": "text"
+    },
+    "chauffage": {
+      "type": "string"
+    },
+    "eau": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "enumeration": {
+      "type": "string"
+    },
+    "technology": {
+      "type": "text"
+    }
+  }
+}

@@ -15,9 +15,13 @@
     "@strapi/plugin-users-permissions": "4.1.2",
     "@strapi/provider-upload-cloudinary": "4.1.2",
     "@strapi/strapi": "4.1.2",
+    "fs": "^0.0.1-security",
+    "memorystream": "^0.3.1",
+    "pdfjs": "^2.4.7",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2"
+    "sqlite3": "5.0.2",
+    "tmp": "^0.2.1"
   },
   "author": {
     "name": "A Strapi developer"

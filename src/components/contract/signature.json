@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contract_signatures",
+  "info": {
+    "displayName": "signature",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "lieu": {
+      "type": "string"
+    }
+  }
+}

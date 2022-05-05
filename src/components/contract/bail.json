@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contract_bails",
+  "info": {
+    "displayName": "bail",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}

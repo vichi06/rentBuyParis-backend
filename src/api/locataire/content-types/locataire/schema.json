@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locataires",
+  "info": {
+    "singularName": "locataire",
+    "pluralName": "locataires",
+    "displayName": "Locataires",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "H",
+        "F"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "contract": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::contract.contract",
+      "inversedBy": "locataires"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

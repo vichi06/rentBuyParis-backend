@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contracts",
+  "info": {
+    "singularName": "contract",
+    "pluralName": "contracts",
+    "displayName": "Contrats",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "rent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::rent.rent"
+    },
+    "contract": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "locataires": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::locataire.locataire",
+      "mappedBy": "contract"
+    },
+    "montant": {
+      "type": "string"
+    },
+    "conditions": {
+      "type": "text"
+    },
+    "depot": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contract.signature",
+      "required": true
+    },
+    "duree": {
+      "type": "string"
+    },
+    "bailleur": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::bailleur.bailleur"
+    },
+    "travaux": {
+      "displayName": "travaux",
+      "type": "component",
+      "repeatable": false,
+      "component": "contract.travaux",
+      "required": true
+    },
+    "object": {
+      "displayName": "object",
+      "type": "component",
+      "repeatable": false,
+      "component": "contract.object",
+      "required": true
+    }
+  }
+}

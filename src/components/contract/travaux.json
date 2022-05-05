@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contract_travauxes",
+  "info": {
+    "displayName": "travaux",
+    "icon": "gavel"
+  },
+  "options": {},
+  "attributes": {
+    "A": {
+      "type": "text"
+    },
+    "B": {
+      "type": "text"
+    },
+    "C": {
+      "type": "text"
+    }
+  }
+}
