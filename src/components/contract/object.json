@@ -9,6 +9,9 @@
     "address": {
       "type": "text"
     },
+    "periode_construction": {
+      "type": "text"
+    },
     "surface": {
       "type": "string"
     },

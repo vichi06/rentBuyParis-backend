@@ -52,7 +52,7 @@ const loadPDFContract = (result) => {
   doc
     .text(
       `Le présent contrat est conclu entre les soussignés :
-  Qualité du bailleur :`
+Qualité du bailleur :`
     )
     .append(` ${result.bailleur?.denominator ?? ""}`, {
       font: HelveticaBold,
@@ -60,8 +60,7 @@ const loadPDFContract = (result) => {
   doc
     .text(`Nom et prénom du bailleur :`)
     .append(
-      ` ${result.bailleur?.last_name ?? ""} ${
-        result.bailleur?.first_name ?? ""
+      ` ${result.bailleur?.last_name ?? ""} ${result.bailleur?.first_name ?? ""
       }`,
       {
         font: HelveticaBold,
@@ -77,33 +76,32 @@ const loadPDFContract = (result) => {
   doc
     .text(`désigné (s) ci-après`)
     .append(` « le bailleur » ;`, { font: HelveticaBold });
-  doc.text(`Nom et prénom du ou des locataires, adresse email`);
+  doc.text(`Nom et prénom du ou des locataires, adresse email`, { font: HelveticaBold });
   result.locataires?.forEach((locataire) => {
     doc.text(
-      `${result.locataire?.last_name ?? ""} ${
-        result.locataire?.first_name ?? ""
-      }, ${result.locataire?.email ?? ""}`,
+      `${locataire?.last_name ?? ""} ${locataire?.first_name ?? ""
+      }, ${locataire?.email ?? ""}`,
       {
         font: HelveticaBold,
       }
     );
   });
-  doc.text(`désigné(s) ci-après « le locataire » ;`).br();
+  doc.text(`désigné(s) ci-après`).append(` « le locataire » ;`, { font: HelveticaBold }).br();
   doc.text(`Il a été convenu ce qui suit :`).br();
   doc.text(`II. Objet du contrat`, { font: HelveticaBold }).br();
   doc.text(
     `Le présent contrat a pour objet la location d'un logement ainsi déterminé :`
-  );
+  ).br();
   doc.text(`    A. Consistance du logement`, {}).br();
   doc.text(`Adresse du logement`);
   doc.text(`${result.object?.address ?? ""}`, {
     font: HelveticaBold,
   });
   doc
-    .text(
-      `Période de construction : de 1949 à 1974
-  - surface habitable :`
-    )
+    .text(`Période de construction :`)
+    .append(` ${result.object?.periode_construction}`);
+  doc
+    .text(`- surface habitable :`)
     .append(` ${result.object?.surface ?? ""}`, { font: HelveticaBold });
   doc
     .text(`- nombre de pièces principales : `)
@@ -406,9 +404,8 @@ const loadPDFContract = (result) => {
         },
         files: {
           path: tempPDF.name,
-          name: `contrat_${result.locataires[0]?.last_name ?? ""}${result.id}${
-            "_" + result.updatedAt
-          }.pdf`,
+          name: `contrat_${result.locataires[0]?.last_name ?? ""}${result.id}${"_" + result.updatedAt
+            }.pdf`,
           type: "application/pdf",
           size: fileStat.size,
         },
